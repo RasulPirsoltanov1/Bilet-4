@@ -1,0 +1,17 @@
+﻿@using Bilet_4.Core.Entities;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/Admin/Views/_Layout.cshtml";
+}
+
+@model Feature
+
+<div class="col-sm-4 text-center feature">
+    <i class="@Model.IconName" ></i>
+    <br />
+    @Model.Title
+    <hr />
+    <p>@Model.Description</p>
+</div>
+

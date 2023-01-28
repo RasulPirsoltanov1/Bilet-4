@@ -542,3 +542,8 @@ C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\obj\Debug\net6.0\scopedcss\bundle\Bil
 C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\obj\Debug\net6.0\Bilet-4.csproj.CopyComplete
 C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\obj\Debug\net6.0\Bilet-4.genruntimeconfig.cache
 C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\obj\Debug\net6.0\ref\Bilet-4.dll
+C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Classtime\Desktop\Bilet-4\Bilet-4\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

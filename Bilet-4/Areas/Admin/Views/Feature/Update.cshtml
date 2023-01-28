@@ -1,0 +1,37 @@
+﻿@using Bilet_4.Core.Entities;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/_Layout.cshtml";
+}
+@model Feature
+<div class="card" style="width:100%">
+    <div class="card-body">
+        <h4 class="card-title">Default form</h4>
+        <p class="card-description">
+            Basic form layout
+        </p>
+        <form class="forms-sample" method="Post">
+            <div class="form-group">
+                <label for="exampleInputUsername1"> Font Awsome Icon Name</label>
+                <input asp-for="IconName" class="form-control" id="exampleInputUsername1" placeholder="IconName">
+                <span asp-validation-for="IconName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1"> Title</label>
+                <input asp-for="Title" class="form-control" id="exampleInputUsername1" placeholder="Title">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1"> Description</label>
+                <input asp-for="Description" class="form-control" id="exampleInputUsername1" placeholder="Description">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary mr-2">Create</button>
+            <button class="btn btn-light" asp-action="Index">Cancel</button>
+        </form>
+    </div>
+</div>
+
+

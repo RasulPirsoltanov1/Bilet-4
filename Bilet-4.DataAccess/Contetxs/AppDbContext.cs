@@ -1,18 +1,18 @@
 ﻿using Bilet_4.Core.Entities;
+using Core.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bilet_4.DataAccess.Contetxs
 {
-	public class AppDbContext:DbContext
-	{
-		public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-		{
-		}
-		public DbSet<Feature> Features { get; set; }
-	}
+
+    public class AppDbContext : IdentityDbContext<AppUser>
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+        public DbSet<Feature> Features { get; set; } = null!;
+      
+    }
+
 }
