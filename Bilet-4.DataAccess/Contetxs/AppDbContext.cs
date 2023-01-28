@@ -12,7 +12,7 @@ namespace Bilet_4.DataAccess.Contetxs
         {
         }
         public DbSet<Feature> Features { get; set; } = null!;
-      
+        public DbSet<Setting> Settings { get; set; } = null!;
     }
 
 }

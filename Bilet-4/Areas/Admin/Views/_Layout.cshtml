@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -157,8 +158,8 @@
                                 Settings
                             </a>
                             <a class="dropdown-item">
-                                <i class="mdi mdi-logout text-primary"></i>
-                                Logout
+                                
+                                <a  href="~/auth/logout">Log OUT</a>
                             </a>
                         </div>
                     </li>

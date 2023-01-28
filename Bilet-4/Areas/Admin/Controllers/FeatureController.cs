@@ -1,11 +1,14 @@
 ﻿using Bilet_4.Core.Entities;
 using Bilet_4.DataAccess.Contetxs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bilet_4.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class FeatureController : Controller
+    [Authorize]
+
+    public class FeatureController : Controller
 	{
 		private AppDbContext _context;
 
